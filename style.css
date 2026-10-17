@@ -1,0 +1,13 @@
+:root{--paper:#F4F0E6;--print:#FFFDF8;--ink:#1A1915;--graphite:#5E5A50;--cobalt:#2847E8}
+@media (prefers-color-scheme:dark){:root{--paper:#121110;--print:#1E1C19;--ink:#F4F0E6;--graphite:#B8B1A0;--cobalt:#5B76FF}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+h1,h2{font-family:ui-serif,"New York",Georgia,serif;font-weight:600;letter-spacing:-.5px}
+h1{font-size:40px;line-height:1.1;margin:24px 0 8px}
+h2{font-size:22px;margin:32px 0 6px}
+p,li{color:var(--ink)}
+.muted{color:var(--graphite)}
+a{color:var(--cobalt)}
+.mark{font-family:ui-serif,"New York",Georgia,serif;font-size:32px;font-weight:600;letter-spacing:-1px;text-decoration:none;color:var(--ink)}
+.card{background:var(--print);border-radius:20px;padding:20px 22px;margin:20px 0}
